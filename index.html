@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</html>
+
+
+<body>
+    <div class="contaier-fluid d-none d-lg-block slider">
+
+        <div class="row h-100">
+
+            <div class="col-6 d-flex justify-content-center auto">
+                <img class="h-50" src="assets/images/landingpageimage.jpg">
+            </div>
+
+            <div class="col-6 d-flex justify-content-center auto">
+
+                <form class="form-horizontal auto">
+                    <div class="form-group">
+                        <lable for="email">Username: </lable>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password: </label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+
+                    <div class="checkbox">
+                        <lable><input type="checkbox">Remember me </lable>
+                    </div>
+
+                    <button type="submit" class="btn-lg btn-success">Submit</button>
+                </form>
+
+            </div>
+
+            <div class="col-lg-12 d-flex justify-content-center auto">
+                <button class="btn btn-warning" onclick="slide()">Take a tour</button>
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+ 
+    <div class="sticky-top">
+            <nav class="navbar navbar-dark navbar-custom navbar-fixed-top">
+                <a class="navbar-brand" href="#Home"><img class="logo" src="assets/images/logo.png"></a>
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#onlinecourses">Online Courses</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-custom"
+                            data-toggle="modal" data-target="#loginform">Log in</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    </div>
+
+            <div class="modal fade" id="loginform" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4>Log in</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;
+                            </button>
+                        </div>
+                        <div class="body">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <lable for="email">Username: </lable>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password: </label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                                <div class="checkbox">
+                                    <lable><input type="checkbox">Remember me </lable>
+                                </div>
+                                <button type="submit" class="btn-lg btn-success">Submit</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+
+    <div class="jumbotron jumbotron-fluid custom-height" id="Home">
+        <div class="row h-100">
+
+            <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+                <h1>Clarify doubts<br>in your language<br> <button class="btn-sm btn-danger auto">Ask Your doubt now</button></h1>
+            </div>
+            
+            <div class="col-12 col-lg-6 auto d-flex justify-content-center">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OWHc4cOxDsg" frameborder="0"></iframe>
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center auto">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/61/47/cd/6147cd863c31a71931b1e6c876182493.jpg" alt="card img">
+                    <div class="card-body">
+                        <p class="card-title">40,000+</p>
+                        <p class="card-text">Doubts cleared</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center auto">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/87/7a/d4/877ad45c0dfc46b37e84801c089b9d23.jpg" alt="card img">
+                    <div class="card-body">
+                        <p class="card-title">20+</p>
+                        <p class="card-text">State Boards</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center auto">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/564x/49/66/07/4966070fda9912fb8855056dff54aa15.jpg" alt="card img">
+                    <div class="card-body">
+                        <p class="card-title">1,000,000+</p>
+                        <p class="card-text">Views</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3 d-flex justify-content-center auto">
+                <div class="card">
+                    <img class="card-img-top" src="https://i.pinimg.com/236x/c3/fe/70/c3fe70a750d10ec6c35496be1d3afe73.jpg" alt="card img">
+                    <div class="card-body">
+                        <p class="card-title">5,000+</p>
+                        <p class="card-text">Books Covered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="jumbotron jumbotron-fluid custom-height">
+        <div class="row h-100">
+            <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+                <div>
+                    <h1>Solve your doubts<span style="color: rgb(255,50,75)"> faster</span>!</h1>
+                    <h3>Accessible everywhere</h3>
+                    <p>Access a quality education anywhere</p>
+                    <h3>1 million+ videos</h3>
+                    <p>Unlimited access to video solutions</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+                <img src="https://i.pinimg.com/564x/24/71/e0/2471e007baa0f4794cedb3c8037f1c80.jpg" alt="study pic">
+            </div>
+        </div>
+</div>
+  
+<div class="jumbotron jumbotron-fluid" style="height: 100vh;" id="aboutus">
+    <div class="row h-100 d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center auto">
+                <h1 style="color: rgb(255,50,75);">How it works?</h1>
+        </div>
+        <div class="col-3 d-flex justify-content-center auto">
+            <figure class="figure">
+                <img src="https://i.pinimg.com/236x/77/b3/a5/77b3a529d23937d5fb416919e0f620dd.jpg" class="rounded-circle">
+            <figcaption class="figure-caption text-center">1.Have a doubt?</figcaption>
+            </figure>
+        </div>
+        <div class="col-1 d-flex justify-content-center auto">
+            <i class="fas fa-angle-right d-none d-lg-inline" style='font-size:70px;padding:20px'></i>
+        </div>
+        <div class="col-3 d-flex justify-content-center auto">
+            <figure class="figure">
+                <img src="https://i.pinimg.com/236x/24/aa/74/24aa74ed18fa02557f1273b081944eeb.jpg" class="rounded-circle">
+                <figcaption class="figure-caption text-center">2.Type in/upload an image</figcaption>
+            </figure>
+        </div>
+        <div class="col-1 d-flex justify-content-center auto">
+            <i class="fas fa-angle-right d-none d-lg-inline" style='font-size:70px;padding:20px'></i>
+        </div>
+        <div class="col-3 d-flex justify-content-center auto">
+            <figure class="figure">
+                <img src="https://i.pinimg.com/236x/9a/fd/d6/9afdd696d1f3a042777e56bed53decd8.jpg" class="rounded-circle">
+                <figcaption class="figure-caption text-center">3.Get your solution</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+        <button class="btn btn-danger">Ask your doubt now</button>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid custom-height">
+    <div class="row h-100 d-flex justify-content-center">
+        <div class="col-12 d-flex justify-content-center auto">
+            <h1><span style="color:rgb(255,50,75);">LIVE</span> classes</h1>
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+            <img src="https://i.pinimg.com/564x/e4/ce/57/e4ce57bacc8b5247f1fa4cde2aa74daf.jpg" alt="workspace">
+        </div>
+        <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+            <div>
+                
+                <h3>Accessible everywhere</h3>
+                <p>Access a quality education anywhere</p>
+                <h3>1 million+ videos</h3>
+                <p>Unlimited access to video solutions</p>
+                <h3>Interactive Sessions</h3>
+                <p>Small groups for minimal students</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="height: 100vh;">
+    <div class="row h-100">
+        <div class="col-12 d-flex justify-content-center auto">
+            <h1><span style="color:rgb(255,50,75);">JEE </span>Mains & Advance Preperation</h1>
+        </div>
+        
+        <div class="col-12 col-lg-6 d-flex justify-content-center" id="onlinecourses">
+            <div id="jeecarousel" class="carousel" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ftpOi7uOkjE" frameborder="0"></iframe>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uZHJiiUNXdU" frameborder="0"></iframe>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9-lU0hQ8tgc" frameborder="0"></iframe>
+                    </div>
+    
+                    <ol class="carousel-indicators">
+                        <li data-target="#jeecarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#jeecarousel" data-slide-to="1"></li>
+                        <li data-target="#jeecarousel" data-slide-to="2"></li>
+                    </ol>
+
+                </div>
+            </div>  
+        </div>
+            
+        <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+            <div>
+                <h2 style="text-align: center;">Learn from experts</h2>
+                <p>At Teched, we make sure that you are trained by the best Jee tainers in the industry</p>
+            </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center auto">
+            <button class="btn btn-danger">Prepare for JEE today</button>
+        </div>
+
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="height: 100vh;">
+    <div class="row h-100">
+        <div class="col-12 d-flex justify-content-center auto">
+            <h1><span style="color:rgb(255,50,75);">NEET </span>Preperation</h1>
+        </div>
+        
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <div id="jeecarousel" class="carousel" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ftpOi7uOkjE" frameborder="0"></iframe>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uZHJiiUNXdU" frameborder="0"></iframe>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9-lU0hQ8tgc" frameborder="0"></iframe>
+                    </div>
+    
+                    <ol class="carousel-indicators">
+                        <li data-target="#jeecarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#jeecarousel" data-slide-to="1"></li>
+                        <li data-target="#jeecarousel" data-slide-to="2"></li>
+                    </ol>
+
+                </div>
+            </div>  
+        </div>
+            
+        <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+            <div>
+                <h2 style="text-align: center;">Learn from experts</h2>
+                <p>At Teched, we make sure that you are trained by the best NEET tainers in the industry</p>
+            </div>
+        </div>
+        <div class="col-12 d-flex justify-content-center auto">
+            <button class="btn btn-danger">Prepare for NEET today</button>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="height: 100vh;">
+    <div class="row h-100">
+        <div class="col-12 d-flex justify-content-center auto">
+                <h1 style="color:rgb(255,50,75)">Explore the subjects with us!</h1>
+        </div>
+        <div class="col-12 d-flex justify-content-center auto">
+            <div class="subjects">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="https://i.pinimg.com/564x/64/06/f0/6406f0d66859910a782eccf251a52f27.jpg">
+                    <figcaption class="figcaption text-center">Physics</figcaption>
+                </figure>
+            </div>
+            
+            <div class="subjects">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="https://i.pinimg.com/236x/b8/9e/db/b89edb40d90e3eafb59fece47a5eacd4.jpg">
+                    <figcaption class="figcaption text-center">Chemistry</figcaption>
+                </figure>
+            </div>
+
+            <div class="subjects">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="https://i.pinimg.com/564x/0c/b2/ab/0cb2ab235680c96dff605c3236a67667.jpg">
+                    <figcaption class="figcaption text-center">Maths</figcaption>
+                </figure>
+            </div>
+
+            <div class="subjects">
+                <figure class="figure">
+                    <img class="img-thumbnail" src="https://i.pinimg.com/236x/f0/34/24/f034241a28a1b69020754e646b1089d7.jpg">
+                    <figcaption class="figcaption text-center">Biology</figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="col-12 d-flex justify-content-center auto">
+            <button class="btn btn-danger">Check out more</button>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid" style="height: 100vh;" id="testimonials">
+    <div class="row h-100">
+
+        <div class="col-12 d-flex justify-content-center auto">
+            <h1 style="color: rgb(255,50,75);">See what the students have to say</h1>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7ICoKOA08wk" frameborder="0" ></iframe>
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex justify-content-center auto">
+            <div id="testcarousel" class="carousel" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="carousel-item active">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://i.pinimg.com/236x/e5/f0/c8/e5f0c837f3b6a83b74209a6d76d87c4c.jpg" style="height: 200px; width: 200px;" class="rounded-circle">
+                                </div>
+                                <div class="col-sm-9 auto">
+                                    <p>My experience at Teched is great and memorable. The teachers and mentors are really helpful and helped me to improve my academic and interpersonal skills.</p>
+                                    <small>-Joe</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://i.pinimg.com/236x/e5/f0/c8/e5f0c837f3b6a83b74209a6d76d87c4c.jpg" style="height: 200px; width: 200px;" class="rounded-circle">
+                                </div>
+                                <div class="col-sm-9 auto">
+                                    <p>Great experience from Teched. You get a lot of opportunities. Work hard to get it. Be prepared for everything. Maintain your attendance.</p>
+                                    <small>-Manny</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+    
+                    <div class="carousel-item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="https://i.pinimg.com/236x/e5/f0/c8/e5f0c837f3b6a83b74209a6d76d87c4c.jpg" style="height: 200px; width: 200px;" class="rounded-circle">
+                                </div>
+                                <div class="col-sm-9 auto">
+                                    <p>The teachers here are just amazing and they helped me a lot in the process.I had fun being a part of teched, it is a wonderful opportunity.</p>
+                                    <small>-Alex</small>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+    
+                    <ol class="carousel-indicators custom-carousel-indicators">
+                        <li data-target="#testcarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#testcarousel" data-slide-to="1"></li>
+                        <li data-target="#testcarousel" data-slide-to="2"></li>
+                    </ol>
+
+                </div>
+            </div>  
+        </div>
+    </div>
+
+</div>
+  
+
+
+    <footer>
+        <script src="index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </footer>
+</body>

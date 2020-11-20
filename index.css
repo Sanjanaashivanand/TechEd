@@ -1,0 +1,132 @@
+html,body{
+    height:100%;
+}
+
+.slider{
+    background-color: rgb(255,50,75);
+    height: 100vh;
+    transition: height 5s;
+}
+
+.slider-move{
+    height: 0vh;
+}
+
+.form-horizontal{
+    background-color: white;
+    height: 50%;
+    margin-top:30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.logo{
+    height: 90px;
+    width: 170px;
+}
+
+.navbar-custom{
+    background-color:rgb(255,50,75);
+}
+
+.btn-custom{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.home{
+    background-color: purple;
+}
+
+.auto{
+   margin-top:auto;
+   margin-bottom:auto;
+   padding:10px;
+}
+
+iframe{
+    border:3px solid rgb(255,50,75);
+    padding: 10px;
+    border-radius: 40px;
+    margin:auto;
+}
+
+.jumbotron{
+    padding-top: 0px;
+}
+
+.card{
+    padding:10px;
+    height: 200px;
+    width: 200px;
+    margin:5px;
+    border-radius:30px 15px;
+}
+
+.card-img-top{
+    height:50%;
+    width: 50%;
+    align-self: center;
+}
+
+.dis{
+    width:33.33%;
+    height: 50%;
+    padding: 10px;
+}
+
+.btn-danger{
+    background-color: rgb(255,50,75);
+}
+
+.figure-caption{
+    caption-side: bottom;
+}
+
+@media only screen and (min-width:768px){
+    .custom-height{
+        height: 100vh;
+    }
+}
+
+.img-thumbnail{
+    height:150px;
+    width: 150px;
+    padding: 10px;
+}
+
+.subjects{
+    margin:auto;
+}
+
+@media (min-width:768){
+    #testcarousel{
+        margin-bottom: 0;
+        padding: 40px;
+    }
+}
+
+#testcarousel{
+    background-color:white;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.custom-carousel-indicators li{
+    background-color: rgb(255,50,75);
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.sticky-top{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    height: 25%;
+}
+
+#Home{
+    padding-top:120px;
+}
